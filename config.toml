@@ -1,0 +1,16 @@
+project_id = "salon-booking-app"
+
+[api]
+enabled = true
+
+[functions.create-booking]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.send-reminders]
+verify_jwt = false
+
+[functions.notify-client]
+verify_jwt = true
